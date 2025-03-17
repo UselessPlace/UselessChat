@@ -25,7 +25,7 @@ window.send = function() {
 
     if (nameThing.value !== "" && inputThing.value !== "") {
         const chatRef = ref(database, "chats");
-    if (inputThing.value != "Fuck" ) {   
+    if (inputThing.value != "Fuck" || "neekeri" || "niger" || "niga" ) {   
         push(chatRef, {
             name: nameThing.value,
             message: inputThing.value
